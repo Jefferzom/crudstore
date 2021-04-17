@@ -1,0 +1,76 @@
+.home {
+  background-image: url('/assets/wallpaper.jpg');
+  width: 100%;
+  height: calc(100vh - 4rem);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+}
+
+.container {
+  max-width: 450px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.log {
+  color: green;
+  font-size: 2rem;
+}
+
+.log::before {
+  content: '*';
+  color: red;
+}
+
+span {
+  color: tomato;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 9px 3rem;
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: white;
+  border: 1px solid black;
+  transition: background 0.3s ease-out;
+}
+
+button:hover {
+  background: tomato;
+}
+
+input {
+  padding: 0.58rem;
+  line-height: 1.8;
+  border-radius: 6px;
+  border: none;
+  background: #ccc;
+}
+
+input:nth-child(1) {
+  margin-bottom: 1rem;
+}
